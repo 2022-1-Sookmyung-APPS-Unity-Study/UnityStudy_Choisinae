@@ -657,8 +657,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1947274306}
   - component: {fileID: 1947274307}
-  - component: {fileID: 1947274308}
   - component: {fileID: 1947274309}
+  - component: {fileID: 1947274308}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -716,7 +716,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d6d5303e4af3a040ac8bec4a0078c7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 0
 --- !u!95 &1947274309
 Animator:
   serializedVersion: 3
