@@ -52,7 +52,7 @@ public class HotAndColdGame : MonoBehaviour
                 print("Very cold.");
             }
             else if (Mathf.Abs(randomNumber - guess) <= 100){
-                print("Freezing.")
+                print("Freezing.");
             }
         }
     }

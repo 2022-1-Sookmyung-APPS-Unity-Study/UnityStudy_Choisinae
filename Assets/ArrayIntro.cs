@@ -18,11 +18,14 @@ public class ArrayIntro : MonoBehaviour
         return result;
     }
    
-}
+
    
 
     // Start is called before the first frame update
-    void Start();
+    void Start() 
+    {
+
+    }
     
 
     
@@ -31,9 +34,12 @@ public class ArrayIntro : MonoBehaviour
     
 
     // Update is called once per frame
-    void Update(); 
+    void Update() 
+    {
+
+    }
         
-    
+}
     
         
     
