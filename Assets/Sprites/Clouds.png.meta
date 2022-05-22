@@ -1,25 +1,25 @@
 fileFormatVersion: 2
-guid: b35080d0b5b852a47850cf7884592602
+guid: 39e8182ed2aa5f34e8b9d8950fe9d9e2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2311659948842064771
-    second: Player_0
+      213: 2669142961033076756
+    second: Clouds_0
   - first:
-      213: 7364682651488144517
-    second: Player_1
+      213: -3967920315399815954
+    second: Clouds_1
   - first:
-      213: -6287787046888575383
-    second: Player_2
+      213: -1749161583622989117
+    second: Clouds_2
   - first:
-      213: -1182821291677670348
-    second: Player_3
+      213: -5240784962635489071
+    second: Clouds_3
   - first:
-      213: -4709456396536258026
-    second: Player_4
+      213: 1327514091082312007
+    second: Clouds_4
   - first:
-      213: -4529042392078601758
-    second: Player_5
+      213: 5063102313881138252
+    second: Clouds_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -121,127 +121,127 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Player_0
+      name: Clouds_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 327
-        width: 470
-        height: 484
-      alignment: 9
-      pivot: {x: 0.5957963, y: 0.036811072}
+        y: 873
+        width: 1991
+        height: 625
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d7465c336855befd0800000000000000
-      internalID: -2311659948842064771
+      spriteID: 4106c1f9163ba0520800000000000000
+      internalID: 2669142961033076756
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_1
+      name: Clouds_1
       rect:
         serializedVersion: 2
-        x: 58
-        y: 191
-        width: 137
-        height: 92
-      alignment: 9
-      pivot: {x: 0.8834184, y: 0.5305867}
+        x: 0
+        y: 450
+        width: 1893
+        height: 411
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58cce6d0adb943660800000000000000
-      internalID: 7364682651488144517
+      spriteID: eecb98ffe7d1fe8c0800000000000000
+      internalID: -3967920315399815954
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_2
+      name: Clouds_2
       rect:
         serializedVersion: 2
-        x: 203
-        y: 161
-        width: 127
-        height: 137
-      alignment: 9
-      pivot: {x: 0.47045657, y: 0.10973464}
+        x: 37
+        y: 4
+        width: 1668
+        height: 418
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96e67e6befa4db8a0800000000000000
-      internalID: -6287787046888575383
+      spriteID: 3ca5461aecab9b7e0800000000000000
+      internalID: -1749161583622989117
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_3
+      name: Clouds_3
       rect:
         serializedVersion: 2
-        x: 342
-        y: 185
-        width: 128
-        height: 104
-      alignment: 9
-      pivot: {x: 0.17023182, y: 0.6443082}
+        x: 2048
+        y: 955
+        width: 1608
+        height: 545
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 434a8c45d46c59fe0800000000000000
-      internalID: -1182821291677670348
+      spriteID: 1d027e5e7ddf447b0800000000000000
+      internalID: -5240784962635489071
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_4
+      name: Clouds_4
       rect:
         serializedVersion: 2
-        x: 351
-        y: 0
-        width: 119
-        height: 133
-      alignment: 9
-      pivot: {x: 0.2083512, y: 0.8173703}
+        x: 2005
+        y: 503
+        width: 1591
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 612e34feb56a4aeb0800000000000000
-      internalID: -4709456396536258026
+      spriteID: 749694948074c6210800000000000000
+      internalID: 1327514091082312007
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_5
+      name: Clouds_5
       rect:
         serializedVersion: 2
-        x: 69
-        y: 0
-        width: 126
-        height: 139
-      alignment: 9
-      pivot: {x: 0.7903353, y: 0.76992947}
+        x: 1779
+        y: 23
+        width: 1855
+        height: 435
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e13877b0fb9521c0800000000000000
-      internalID: -4529042392078601758
+      spriteID: c44f750aab0c34640800000000000000
+      internalID: 5063102313881138252
       vertices: []
       indices: 
       edges: []

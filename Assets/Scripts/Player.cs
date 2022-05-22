@@ -10,35 +10,44 @@ public class Player : MonoBehaviour
     Rigidbody2D rb;
     Animator sinae;
 
+    public int health;
+
     // Start is called before the first frame update
     void Start()
-    {
-        sinae =GetComponent<Animator>();
-        rb = GetComponent<Rigidbody2D>();
-        
+    {   sinae = GetComponent<Animator>();
+        rb = GetComponent<Rigidbody2D>();    
     }
-    private void Update()
+
+    
+    // Update is called once per frame
+    void FixedUpdate()
     {
-        if (input != 0) {
+        float input = Input.GetAxisRaw("Horizontal");
+
+        if (input != 0)
+        {
             sinae.SetBool("isRunning", true);
         }
         else {
             sinae.SetBool("isRunning", false);
         }
 
-        if (input > 0) {
-            transform.eulerAngles = new Vector3(0,0,0);
+        if (input > 0)
+        {
+            transform.eulerAngles = new Vector3(0, 0, 0);
         }
         else if (input < 0) {
             transform.eulerAngles = new Vector3(0, 180, 0);
         }
+
+        rb.velocity = new Vector2(input * speed, rb.velocity.y);
     }
 
-    // Update is called once per frame
-    void FixedUpdate()
-    {
-        float input = Input.GetAxis("Horizontal");
-        
-        rb.velocity = new Vector2(input * speed, rb.velocity.y);
+    public void TakeDamage(int damageAmount) {
+        health -= damageAmount;
+
+        if(health <= 0) {
+            Destroy(gameObject);
+        }
     }
 }
